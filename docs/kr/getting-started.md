@@ -26,7 +26,7 @@ const store = new Vuex.Store({
 })
 ```
 
-이제 state 객체에 `store.state`로 접근하여 `store.commit` 메소드로 상태 변경을 트리거 할 수 있습니다.
+이제 state 객체에 `store.state`로 접근할 수 있고, `store.commit` 메소드로 상태 변경을 트리거 할 수 있습니다.
 
 ``` js
 store.commit('increment')
